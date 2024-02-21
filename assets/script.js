@@ -49,3 +49,10 @@ console.log(Math.abs(x));
 console.log(Math.max(x, y, z));
 console.log(Math.min(x, y, z));
 
+var mathOne = 10;
+var mathTwo = 20;
+sum = mathOne + mathTwo;
+window.alert ("your final result as the sum of 10 and 20 is " + sum);
+
+
+window.alert("So far I am not able to figure out how to change user assigned value i.e. propmt value to number value and cumpute maths on them :( ");
