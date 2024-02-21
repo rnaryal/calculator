@@ -1,12 +1,19 @@
-var firstNum = console.log (window.prompt("Enter a first number"));
+var firstNum = console.log(window.prompt("Enter a first number"));
 var secondNum = console.log(window.prompt("Enter a second number"));
 
 // parseInt test
-a = parseInt(firstNum);
-b = parseInt(secondNum);
+var a = parseInt(firstNum);
+var b = parseInt(secondNum);
 
-totalAdd = a + b;
-window.alert(totalAdd); 
+window.alert(a+b);
+
+// still not being able to run parseInt and Number in VS Code but it runs in chrome console :( 
+
+// firstNum = Number(firstNum);
+// secondNum = Number(secondNum);
+// console.log(firstNum + secondNum);
+// totalAdd = firstNum+secondNum;
+// window.alert(totalAdd); 
 // Not success in converting user assigned inf to number :(
 
 
